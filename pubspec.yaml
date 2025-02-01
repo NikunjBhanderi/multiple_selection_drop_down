@@ -1,6 +1,6 @@
 name: multiple_selection_drop_down
 description: "this is a multiple selection dropdown package"
-version: 1.0.0
+version: 1.1.0
 
 environment:
   sdk: ^3.6.1
