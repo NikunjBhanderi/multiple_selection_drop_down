@@ -1,7 +1,6 @@
 name: multiple_selection_drop_down
-description: "A new Flutter project."
-version: 0.0.1
-homepage:
+description: "this is a multiple selection dropdown package"
+version: 1.0.0
 
 environment:
   sdk: ^3.6.1
