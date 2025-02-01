@@ -11,7 +11,7 @@ Lots of properties to use and customize dropdown widget as per your need.
 </ul>
 
 ## How to use
-**Make sure to check out [examples](https://github.com/NikunjBhanderi/multiple_selection_drop_down/blob/main/example/lib/main.dart) for more details.**
+**Make sure to check out [examples](https://github.com/NikunjBhanderi/multiple_selection_drop_down/blob/version-1.0.0/example/lib/main.dart) for more details.**
 
 
 # Getting started
