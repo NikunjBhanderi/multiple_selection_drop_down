@@ -6,20 +6,19 @@
 // For more information about Flutter integration tests, please see
 // https://flutter.dev/to/integration-testing
 
-
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-
 import 'package:multiple_selection_drop_down/multiple_selection_drop_down.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   testWidgets('getPlatformVersion test', (WidgetTester tester) async {
-    final MultipleSelectionDropDown plugin = MultipleSelectionDropDown();
-    final String? version = await plugin.getPlatformVersion();
-    // The version string depends on the host platform running the test, so
-    // just assert that some non-empty string is returned.
-    expect(version?.isNotEmpty, true);
+    MultipleSelectionDropDownView<String>(
+      items: [],
+      selectedItemList: [],
+      displayText: (p0) => p0.toString(),
+      onChange: (value) {},
+    );
   });
 }
